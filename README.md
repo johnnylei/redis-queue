@@ -5,7 +5,7 @@
 - 安装phpredis扩展
 - 安装代码
 ``` php
-composer require --prefer-dist johnnylei/yii2-redis-queue
+composer require --prefer-dist johnnylei/yii-redis-queue
 ```
 
 # usage
