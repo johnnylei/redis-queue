@@ -1,0 +1,34 @@
+{  
+  "name": "johnnylei/yii2-redis-queue",  
+  "description": "Yii2 redis queue based on pub/sub",  
+  "keywords": [  
+    "yii2",  
+    "redis",
+    "queue"
+  ],  
+  "homepage": "https://github.com/johnnylei/yii2-redis-queue.git",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/johnnylei/yii2-redis-queue.git"  
+  },  
+  "authors": [  
+    {  
+      "name": "johnny Lei",  
+      "email": "leiyuqing_jing@163.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "johnnylei\redis_queue\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
