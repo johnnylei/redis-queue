@@ -2,11 +2,13 @@
 基于yii2通过redis的订阅／发布者模式实现的消息队列
 
 # install
+- 安装phpredis扩展
+- 安装代码
 ``` php
 composer require --prefer-dist johnnylei/yii2-redis-queue
 ```
 
-#usage
+# usage
 - 配置文件
 ``` php
 'redis_queue'=>[
