@@ -1,5 +1,5 @@
 {  
-  "name": "johnnylei/redis-queue",  
+  "name": "johnnylei/yii-redis-queue",  
   "description": "Yii2 redis queue based on pub/sub",  
   "keywords": [  
     "yii2",  
