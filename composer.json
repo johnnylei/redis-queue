@@ -1,16 +1,16 @@
 {  
-  "name": "johnnylei/yii2-redis-queue",  
+  "name": "johnnylei/redis-queue",  
   "description": "Yii2 redis queue based on pub/sub",  
   "keywords": [  
     "yii2",  
     "redis",
     "queue"
   ],  
-  "homepage": "https://github.com/johnnylei/yii2-redis-queue.git",  
+  "homepage": "https://github.com/johnnylei/redis-queue.git",  
   "type": "yii2-extension",  
   "license": "MIT",  
   "support": {  
-    "source": "https://github.com/johnnylei/yii2-redis-queue.git"  
+    "source": "https://github.com/johnnylei/redis-queue.git"  
   },  
   "authors": [  
     {  
