@@ -22,7 +22,7 @@ class RedisQueue extends Component
         }
         try {
             foreach ($queue as $item) {
-                $this->redis->publish($queue, serialize($data));
+                $this->redis->publish($item, serialize($data));
             }
         } catch (\Exception $e) {
             throw $e;
