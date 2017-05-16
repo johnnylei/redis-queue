@@ -1,7 +1,8 @@
 <?php
 namespace johnnylei\redis_queue;
 use yii\base\Component;
-use yii\base\Exception;
+use Exception;
+
 class RedisQueue extends Component
 {
     private $redis;
@@ -37,5 +38,15 @@ class RedisQueue extends Component
             $queue = [$queue];
         }
         return $this->redis->subscribe($queue, $callback);
+    }
+
+    public function __call($name, $params)
+    {
+        try {
+            return call_user_func_array([$this->redis, $name], $params);
+        } catch (Exception $e) {
+            var_dump($e->getMessage());
+            throw new \yii\base\Exception($e->getMessage());
+        }
     }
 }
